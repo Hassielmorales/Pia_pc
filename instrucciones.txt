@@ -1,0 +1,31 @@
+Mensaje de los desarrolladores al usuario
+La siguiente herramienta es una recopilación de aprendizaje recaudado durante este curso de ciberseguridad y que pueden usarse para aprender y practicar algunos scripts relacionados a la seguridad informatica inspirado en las herramientas para Python que se nos han mostrado.
+
+Instrucciones para el uso de nuestra herramienta
+Es recomendable tener a la mano las rutas sobre las carpetas de las cuales se ejecutarán estos scripts.
+
+Webscrapping para imágenes
+Paquetes y librerias necesarios para su correcto funcionamiento
+Beautiful soup
+lxml
+Script creado para descargar las imágenes que tenga una pagina en su tamaño original 
+Necesitamos una URL de alguna pagina y una ruta en la que queramos guardar las imágenes de esa pagina
+Ejemplo de url: https://es.wikipedia.org/wiki/Imagen
+Ejemplo de dirección de carpeta: C:\Users\JALCY\Desktop\
+
+Screenshot email
+Librerías necesarias para usar este script:
+Mime
+Smtplib
+pyscreenshot
+Esta es una forma de hacer screenshots para monitorear de una forma rapida ya que podemos usar una USB y guardar la imagen 
+Necesitamos una ruta de una carpeta junto con el nombre de la imagen y su extensión
+
+ejemplo: C:\Users\JALCY\Desktop\pc\screenshot.jpg
+	
+Comparativa de hashes
+El objetivo de este par de scripts es asignarle un HASH a cada archivo obtenido y mediante esto verificar si ambos contienen la misma información. El primer script asigna estos valores a 2 archivos en específico y mediante el segundo script utilizando parámetros indicamos se encarga de comparar estos utilizando hashlib y argparse como principales librerías
+
+Metadata de imágenes
+Librerías necesarias para usar este script: Pillow
+Para tomar la metadata de imágenes que tengamos en una carpeta
